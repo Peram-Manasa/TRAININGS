@@ -1,0 +1,61 @@
+declare interface IContentQueryWebPartStrings {
+  contentQueryStrings: IContentQueryStrings;
+  SiteUrlFieldLabel: string;
+  SiteUrlFieldLoadingLabel: string;
+  SiteUrlFieldLoadingError: string;
+  WebUrlFieldLabel: string;
+  WebUrlFieldLoadingLabel: string;
+  WebUrlFieldLoadingError: string;
+  ListTitleFieldLabel: string;
+  ListTitleFieldLoadingLabel: string;
+  ListTitleFieldLoadingError: string;
+  OrderByFieldLabel: string;
+  OrderByFieldLoadingLabel: string;
+  OrderByFieldLoadingError: string;
+  queryFilterPanelStrings: IQueryFilterPanelStrings;
+  ConfigureItemSelectorLabel: string;
+  ClearItemSelectorLabel: string;
+  ConfigureItemSelectorDescriptionLabel: string;
+  ClearItemSelectorDescriptionLabel: string;
+  viewFieldsChecklistStrings: IAsyncChecklistStrings;
+  templateTextStrings: ITextDialogStrings;
+  ShowItemsAscending: string;
+  ShowItemsDescending: string;
+  TemplateUrlFieldLabel: string;
+  TemplateUrlPlaceholder: string;
+  LimitEnabledFieldLabel: string;
+  ItemLimitPlaceholder: string;
+  RecursiveEnabledFieldLabel: string;
+  ExternalScriptsLabel: string;
+  ExternalScriptsPlaceholder: string;
+  WebPartDescription: string;
+  SourceGroupName: string;
+  SourcePageDescription: string;
+  QueryGroupName: string;
+  QueryPageDescription: string;
+  DisplayGroupName: string;
+  DisplayPageDescription: string;
+  ExternalGroupName: string;
+  ExternalPageDescription: string;
+  ErrorTemplateExtension(ErrorTemplateExtension: any): unknown;
+  ErrorTemplateResolve(ErrorTemplateResolve: any, error: any): string | PromiseLike<string>;
+  ErrorItemLimit: string | PromiseLike<string>;
+  PropertyPaneDescription: string;
+  SourcePageDescription: string;
+  BasicGroupName: string;
+  dropdownProperty:string;
+  DescriptionFieldLabel: string;
+  AppLocalEnvironmentSharePoint: string;
+  AppLocalEnvironmentTeams: string;
+  AppLocalEnvironmentOffice: string;
+  AppLocalEnvironmentOutlook: string;
+  AppSharePointEnvironment: string;
+  AppTeamsTabEnvironment: string;
+  AppOfficeEnvironment: string;
+  AppOutlookEnvironment: string;
+}
+
+declare module 'ContentQueryWebPartStrings' {
+  const strings: IContentQueryWebPartStrings;
+  export = strings;
+}

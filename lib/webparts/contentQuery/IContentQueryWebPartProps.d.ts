@@ -1,0 +1,1 @@
+//# sourceMappingURL=IContentQueryWebPartProps.d.ts.map
